@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+
+ }
+ html {
+    scroll-behavior: smooth;
+  }
+
+ 
+ body{
+     background:  rgba(0,0,0,0.9);
+ }
+ .wrapper{
+     clear: both;
+     width: 100%;
+ }
+
+
+ a.web-title:hover{
+    
+    transition: 1s;
+    transform: scale(1.1);
+    
+ }
+ .menu-bar{
+    font-family: 'Merriweather', serif;
+    position: sticky;
+ }
+ 
+ .banner{
+     float: left;
+     clear: both;
+     width: 100%;
+     padding: 100px 0px 0px;
+     
+ }
+ .myfont{
+    font-family: 'Architects Daughter', cursive;
+ }
+ 
+ .my-skills{
+    font-family: 'Merriweather', serif;
+ }
+ .team{
+     float: left;
+     clear: both;
+     width: 100%;
+     padding: 100px 0px;
+     background: black;
+ }
+ .team-box{
+     width: 100%;
+     padding: 40px 15px;
+     text-align: center;
+     transition: 1s;
+     margin-top: 50px;
+ }
+ .team-box:hover{
+     background-color: white;
+     border-top-left-radius: 100px;
+     border-bottom-right-radius: 100px;
+ }
+ .team-box:hover{
+     color: black;
+ }
+ .team-photo{
+     width: 120px;
+     height: 120px;
+     border-radius: 50px;
+ }
+ h1.social{
+    font-family: 'Merriweather', serif;
+ }
+ .social-media{
+        float: left;
+        clear: both;
+        width: 100%;
+        padding: 50px 0px;
+ }
+ .social-icons{
+     margin-top: 100px;
+     width: 100%;
+     height: 80px;
+     filter: grayscale(100%);
+     transition: 1s;
+
+ }
+ .social-section:hover .social-icons {
+                filter: blur(10px);
+ }
+ .social-section .social-icons:hover {
+               filter: blur(0px);
+               transform: scale(1.1);
+ }
+ h1.work{
+    font-family: 'Merriweather', serif;
+ }
+ .my-work{
+     float: left;
+     clear: both;
+     width: 100%;
+     padding: 100px 0px;
+     background: rgba(0,0,0,0.9);
+ }
+ .work-box{
+     width: 100%;
+     height: 350px;
+     border: 1px solid #c6c6c6;
+     margin-top: 50px;
+     background-size: 100% auto;
+     background-position: top;
+     transition: 8s;
+ }
+ 
+ .work-box:hover{
+          background-position: bottom;
+ }
+ h1.contact{
+    font-family: 'Merriweather', serif;
+ }
+
+ .footer{
+
+    float: left;
+    clear: both;
+    width: 100%;
+    padding: 100px 0px;
+ }
+ .footer-input{
+     width: 100%;
+     background: transparent;
+     border: none;
+     padding: 10px 25px;
+     border-radius: 100px;
+     box-shadow: inset -2px -2px 2px rgba(255,255,255,0.3),
+               inset 2px 2px 2px rgba(00,00,00,0.2);
+    color: #c6c6c6;
+    margin-top: 10px;
+ }
+ .footer-btn{
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 100px;
+    box-shadow: -2px -2px 2px rgba(255,255,255,0.3),
+                2px 2px 2px rgba(00,00,00,0.2);
+   color: #c6c6c6;
+   margin-top: 10px;
+   text-align: center;
+   color: white;
+   font-variant: small-caps;
+   font-size: 18px;
+}
+.copyright{
+    float: left;
+    clear: both;
+    width: 100%;
+    padding: 30px 0px;
+    background: black;
+    color: white;
+}

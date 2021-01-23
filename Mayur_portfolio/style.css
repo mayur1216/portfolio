@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+ 
+ }
+ @font-face{
+             font-family: myfont;
+             src: url(../webfonts/Pacifico-Regular.ttf);
+ }
+ .myfont1{
+           font-family: myfont1;
+ }
+ .myfont{
+     font-family: myfont;
+ }
+ body{
+     background:  rgba(0,0,0,0.9);
+ }
+ .wrapper{
+     clear: both;
+     width: 100%;
+ }
+ .banner{
+     float: left;
+     clear: both;
+     width: 100%;
+     padding: 100px 0px 0px;
+ }
+ .team{
+     float: left;
+     clear: both;
+     width: 100%;
+     padding: 100px 0px;
+     background: black;
+ }
+ .team-box{
+     width: 100%;
+     padding: 40px 15px;
+     text-align: center;
+     transition: 1s;
+ }
+ .team-box:hover{
+     background-color: white;
+     border-top-left-radius: 50px;
+ }
+ .team-box:hover{
+     color: black;
+ }
+ .team-photo{
+     width: 120px;
+     height: 120px;
+     border-radius: 50px;
+ }
+ 
+ 
